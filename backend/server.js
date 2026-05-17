@@ -12,8 +12,9 @@ app.get("/", (req, res) => {
 
 app.get("/pets", (req, res) => {
   res.json([
-    { nome: "Rex", tipo: "Cachorro" },
-    { nome: "Mimi", tipo: "Gato" }
+    { id: 1, nome: "Rex", tipo: "Cachorro" },
+    { id: 2, nome: "Mimi", tipo: "Gato" },
+    { id: 3, nome: "Bolt", tipo: "Cachorro" }
   ]);
 });
 
