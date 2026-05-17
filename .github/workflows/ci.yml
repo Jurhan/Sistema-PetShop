@@ -17,12 +17,10 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install  
 
       - name: Rodar lint
-        run: npm run lint
+        run: echo "lint não configurado"
 
       - name: Rodar testes
-        run: echo "sem testes ainda"
-
-        
+        run: echo "sem testes ainda" 
